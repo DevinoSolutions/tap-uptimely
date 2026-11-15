@@ -36,7 +36,7 @@ Create the key in Uptimely under Settings, API Keys, Public API keys.
 ## Usage
 
 ```bash
-pip install tap-uptimely
+pip install git+https://github.com/DevinoSolutions/tap-uptimely.git
 TAP_UPTIMELY_API_KEY=... tap-uptimely --discover > catalog.json
 TAP_UPTIMELY_API_KEY=... tap-uptimely --catalog catalog.json
 ```
